@@ -1,0 +1,43 @@
+.footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F8F9FD;
+  
+}
+.f-box1{
+  width: 33%;
+  padding: 10px;
+}
+.f-box1 P{
+  margin: 20px 0;
+  text-align: start;
+  font-size: 18px;
+  padding-right: 20px;
+  color: #7a7a7a;
+
+}
+.f-box1 ul li{
+  list-style: none;
+  padding: 10px;
+  color: #7a7a7a;
+
+  font-size: 18px;
+}
+
+.f-box1 input{
+  width: 100%;
+  padding: 10px;  
+  border: 0;
+  outline: 0;
+  background: #846444;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 10px;
+  display: block;
+}
+.f-box1 input::placeholder{
+  color: white;
+  opacity: 1;
+}
