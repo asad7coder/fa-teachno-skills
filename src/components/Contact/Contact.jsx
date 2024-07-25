@@ -1,5 +1,8 @@
 import React from "react";
 import "./Contact.css";
+import { FaSquarePhone } from "react-icons/fa6";
+import { IoIosMail } from "react-icons/io";
+import { FaMapLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
   // we3Form api
@@ -40,9 +43,18 @@ const Contact = () => {
             take the next step in your career, feel free to reach out.
           </p>
           <ul>
-            <li>fateachnoskills@gmail.com</li>
-            <li>+92 321 4566743</li>
-            <li>D.H.A Phase 8 Lahore</li>
+            <li>
+              <IoIosMail className="icon-c" />
+              fateachnoskills@gmail.com
+            </li>
+            <li>
+              {" "}
+              <FaSquarePhone className="icon-c" /> +92 321 4566743
+            </li>
+            <li>
+              {" "}
+              <FaMapLocationDot className="icon-c" /> D.H.A Phase 8 Lahore
+            </li>
           </ul>
         </div>
         <div className="contact-right">

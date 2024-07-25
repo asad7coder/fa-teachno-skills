@@ -37,3 +37,26 @@ p{
    font-size: 20px;
    align-items: center;
 }
+
+
+/* media query */
+
+@media screen and (max-width: 1050px) {
+
+  .team-box h1{
+    font-size: 20px;
+
+  }
+}
+
+
+@media (max-width: 750px) {
+  .team-box{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .team-box h1{
+    font-size: 25px;
+  }
+
+}

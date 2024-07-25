@@ -7,6 +7,10 @@
   margin-top: 30px;
 
 }
+.about-left{
+
+  flex-basis: 60%;
+}
 .about-left p{
   font-size: 22px;
   padding: 20px;
@@ -17,7 +21,7 @@
 
 }
 .about-right img{
-  width: 400px;
+  width: 300px;
   border-radius: 20px;
 
 }
@@ -25,5 +29,21 @@
   margin-top: 2px;
   color: #292457 !important;
   border: 2px solid #f9c423;
+  
+}
+
+
+/* Media Query */
+
+
+@media (max-width:890px) {
+  .about-left{
+    flex-basis: 100%;
+    order: 2;
+  }
+  .about-right{
+    flex-basis: 100%;
+    text-align: center;
+  }
   
 }

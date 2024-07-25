@@ -9,6 +9,7 @@
 }
 .f-box1{
   width: 33%;
+  min-width:300px;
   padding: 10px;
 }
 .f-box1 P{
@@ -41,4 +42,19 @@
 .f-box1 input::placeholder{
   color: white;
   opacity: 1;
+}
+
+
+/* Media Query */
+
+@media (max-width:600px) {
+  .f-box1{
+    width: 100%;
+    text-align: center;
+  }
+  .f-box1 p{
+    font-size: 30px;
+    text-align: center;
+  }
+  
 }

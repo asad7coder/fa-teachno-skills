@@ -26,6 +26,8 @@
 .contact-left ul li{
   list-style: none;
   padding: 20px;
+  display: flex;
+  align-items: center;
 }
 .contact-right{
   flex-basis: 50%;
@@ -45,4 +47,33 @@
   outline: 0;
   background-color: #f2f2f0;
   resize: none;
+}
+.contact-left .icon-c{
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+
+/* media Query */
+
+@media (max-width:800px) {
+  .contact{
+    /* flex-direction: column; */
+  }
+  .contact-left{
+    flex-basis: 100%;
+  }
+  .contact-right{
+    flex-basis: 100%;
+
+  }
+  
+}
+ 
+@media (max-width:500px) {
+  .contact-left ul li{
+    padding: 5px;
+
+  }
+  
 }

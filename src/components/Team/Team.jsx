@@ -5,10 +5,9 @@ import farman_ali from "../../assets/farman-ali.jpeg";
 import asad_shahzad from "../../assets/asad-shahzad.jpg";
 import asad from "../../assets/asad.jpeg";
 import mubashir from "../../assets/mubashir.jpeg";
+import { DiGithubFull } from "react-icons/di";
 
-import { FaFacebook } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import { FaSquareInstagram } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 const Team = () => {
   return (
@@ -25,13 +24,9 @@ const Team = () => {
           </p>
           <ul>
             <li>
-              <FaFacebook />
-            </li>
-            <li>
-              <FaYoutube />
-            </li>
-            <li>
-              <FaSquareInstagram />
+              <a href="#">
+                <FaGithub /> <DiGithubFull />
+              </a>
             </li>
           </ul>
         </div>
@@ -46,13 +41,9 @@ const Team = () => {
           </p>
           <ul>
             <li>
-              <FaFacebook />
-            </li>
-            <li>
-              <FaYoutube />
-            </li>
-            <li>
-              <FaSquareInstagram />
+              <a href="#">
+                <FaGithub /> <DiGithubFull />
+              </a>
             </li>
           </ul>
         </div>
@@ -67,13 +58,9 @@ const Team = () => {
           </p>
           <ul>
             <li>
-              <FaFacebook />
-            </li>
-            <li>
-              <FaYoutube />
-            </li>
-            <li>
-              <FaSquareInstagram />
+              <a href="#">
+                <FaGithub /> <DiGithubFull />
+              </a>
             </li>
           </ul>
         </div>
@@ -89,13 +76,9 @@ const Team = () => {
           </p>
           <ul>
             <li>
-              <FaFacebook />
-            </li>
-            <li>
-              <FaYoutube />
-            </li>
-            <li>
-              <FaSquareInstagram />
+              <a href="https://github.com/asad7coder/" target="_blank">
+                <FaGithub /> <DiGithubFull />
+              </a>
             </li>
           </ul>
         </div>
@@ -109,13 +92,9 @@ const Team = () => {
           </p>
           <ul>
             <li>
-              <FaFacebook />
-            </li>
-            <li>
-              <FaYoutube />
-            </li>
-            <li>
-              <FaSquareInstagram />
+              <a href="#">
+                <FaGithub /> <DiGithubFull />
+              </a>
             </li>
           </ul>
         </div>
