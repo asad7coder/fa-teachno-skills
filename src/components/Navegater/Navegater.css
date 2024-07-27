@@ -1,0 +1,23 @@
+.navegater{
+  position: relative;
+}
+.n-box-home{
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  background-color: #292457;
+  border-radius: 20px;
+  padding: 7px;
+
+}
+.n-box-home img{
+  width: 50px;
+  border: 1px solid white;
+  border-radius: 3px 15px;
+  transition: all 0.4s;
+}
+.n-box-home img:hover{
+  background-color: #ffffff;
+  border: 2px dashed #f9c423;
+  width: 60px;
+}

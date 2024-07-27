@@ -7,6 +7,7 @@ import Title from "./components/Title/Title";
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
 import Team from "./components/Team/Team";
+import Navegater from "./components/Navegater/Navegater";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       </div>
       <Title title="Footer" />
       <Footer />
+      <Navegater />
     </>
   );
 };

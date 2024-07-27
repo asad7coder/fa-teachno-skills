@@ -35,7 +35,8 @@ width: 400px;
     order: 2;
   }
   .hero-right img{
-    flex-basis: 100%;
+    width: 350px;
+    padding: 10px;
   }
   
 }
@@ -43,6 +44,14 @@ width: 400px;
 @media (max-width:700px) {
   .hero-left h1{
     font-size: 40px;
+  }
+  
+}
+
+@media (max-width:400px) {
+  .hero-right img{
+    width: 300px;
+    padding: 10px;
   }
   
 }
