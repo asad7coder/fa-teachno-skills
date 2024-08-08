@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
 import Team from "./components/Team/Team";
 import Navegater from "./components/Navegater/Navegater";
+import Carosals from "./components/Carosals/Carosals";
 
 const App = () => {
   return (
@@ -17,6 +18,8 @@ const App = () => {
         <Hero />
         <Title title="Courses" />
         <Courses />
+        <Title title="Tranding Courses" />
+        <Carosals />
         <Title title="Contact us" />
         <Contact />
         <Title title="About" />
